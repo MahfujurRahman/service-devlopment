@@ -1,0 +1,99 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.padding{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.heading{
+
+}
+
+.heading h2{
+    text-transform: uppercase;
+}
+
+.heading p{
+    margin-bottom: 50px;
+}
+
+
+.service-area{
+    border: 1px solid #E4E4E4;
+}
+
+.service-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.service-bg h4{
+    background-color: #DD5145;
+    color: #fff;
+    padding: 18px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -25px;
+}
+
+.service-area p{
+    padding-top: 50px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.service-area a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #333;
+}
+
+.service-bg-1{
+    background-image: url(../img/fs.png);
+}
+
+.service-bg-2{
+    background-image: url(../img/fs-2.png);
+}
+
+.service-bg-3{
+    background-image: url(../img/fs-3.png);
+}
